@@ -1,0 +1,39 @@
+{
+  "name": "@mometa-mat/antd",
+  "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "余聪 <yucong@yuanfudao.com>",
+  "description": "antd",
+  "main": "lib",
+  "types": "types",
+  "module": "es",
+  "files": [
+    "lib",
+    "es",
+    "types"
+  ],
+  "scripts": {
+    "test": "../../scripts/run test",
+    "build": "../../scripts/run build",
+    "packlimit": "../../scripts/run packlimit",
+    "dev": "npm run build -- --watch",
+    "prepublishOnly": "npm run build && npm run packlimit",
+    "version": "npm test && npm run packlimit"
+  },
+  "dependencies": {
+    "@mometa/materials-generator": "^0.0.0"
+  },
+  "keywords": [
+    "antd",
+    "余聪",
+    "mat",
+    "mometa-mat"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imcuttle/mometa-mat.git",
+    "directory": "packages/antd"
+  }
+}

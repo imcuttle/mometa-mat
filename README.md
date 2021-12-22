@@ -10,6 +10,8 @@
 
 ## Packages
 
+- [@mometa-mat/antd](packages/antd) - antd
+
 ## Contributing
 
 - Fork it!

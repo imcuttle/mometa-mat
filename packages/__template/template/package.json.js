@@ -24,7 +24,7 @@ module.exports = ({ packagePrefix, name, description, scriptBin, _, useTs }) => 
     files: useTs ? ['lib', 'es', 'types'] : ['src'],
     scripts,
     dependencies: {},
-    keywords: [_.git.name].concat(name.split('.')).concat(require('../../../package.json').keywords || []),
+    keywords: Array.from(new Set([_.git.name].concat(name.split('.')).concat(require('../../../package.json').keywords || [])).values()),
     repository: {
       type: 'git',
       url: 'git+' + _.git.remote,

@@ -27,12 +27,7 @@
     "types",
     "lib"
   ],
-  "keywords": [
-    "余聪",
-    "mometa",
-    "mat",
-    "mometa-mat"
-  ],
+  "keywords": [],
   "main": "lib",
   "types": "types",
   "license": "MIT",
