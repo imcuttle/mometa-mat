@@ -22,8 +22,11 @@
     "prepublishOnly": "npm run build && npm run packlimit",
     "version": "npm test && npm run packlimit"
   },
-  "dependencies": {
-    "@mometa/materials-generator": "^0.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "@mometa/materials-generator": "^0.0.0",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10"
   },
   "keywords": [
     "antd",
