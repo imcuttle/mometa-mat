@@ -1,6 +1,6 @@
 {
   "name": "@mometa-mat/antd",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "publishConfig": {
     "access": "public"
   },
@@ -22,7 +22,6 @@
     "prepublishOnly": "npm run build && npm run packlimit",
     "version": "npm test && npm run packlimit"
   },
-  "dependencies": {},
   "devDependencies": {
     "@mometa/materials-generator": "^0.0.0",
     "axios": "^0.24.0",
