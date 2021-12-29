@@ -37,5 +37,6 @@
     "type": "git",
     "url": "git+https://github.com/imcuttle/mometa-mat.git",
     "directory": "packages/antd"
-  }
+  },
+  "gitHead": "e2eace7c892cb7304269289979b7fef7dbeb3970"
 }
