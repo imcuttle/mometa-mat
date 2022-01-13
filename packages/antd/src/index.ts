@@ -667,7 +667,7 @@ export default {
           homepage: 'https://ant.design/components/upload-cn/',
           cover: 'https://gw.alipayobjects.com/zos/alicdn/QaeBt_ZMg/Upload.svg',
           data: {
-            code: '<$Upload$ ><span>点击上传</span><$Upload$>',
+            code: '<$Upload$><span>点击上传</span></$Upload$>',
             dependencies: {
               Upload: {
                 source: 'antd',
@@ -782,7 +782,7 @@ export default {
           homepage: 'https://ant.design/components/card-cn/',
           cover: 'https://gw.alipayobjects.com/zos/antfincdn/NqXt8DJhky/Card.svg',
           data: {
-            code: '<$Card$ style={{ width: 300 }} ><p>content</p></Card>',
+            code: '<$Card$ style={{ width: 300 }} ><p>content</p></$Card$>',
             dependencies: {
               Card: {
                 source: 'antd',
