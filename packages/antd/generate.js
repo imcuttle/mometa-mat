@@ -32,12 +32,11 @@ async function main() {
           homepage: `https://ant.design${homepage}`,
           cover: src,
           data: {
-            code: `<$${key}$ />`,
+            code: `<${key} />`,
             dependencies: {
               [key]: {
                 source: 'antd',
-                mode: 'named',
-                imported: key
+                mode: 'named'
               }
             }
           }
